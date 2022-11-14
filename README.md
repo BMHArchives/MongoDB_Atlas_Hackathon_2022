@@ -1,2 +1,5 @@
 # MongoDB_Atlas_Hackathon_2022
 MongoDB Atlas Hackathon 2022 App
+
+Challenge Rules:
+https://dev.to/devteam/announcing-the-mongodb-atlas-hackathon-2022-on-dev-2107
