@@ -1,0 +1,12 @@
+FROM python:3.6.4
+WORKDIR /app
+COPY requirements.txt requirements.txt
+COPY AppConfig.py AppConfig.py
+COPY Stock.py Stock.py
+COPY StockTweet.py StockTweet.py
+COPY StockTwitterFeeder.py StockTwitterFeeder.py 
+RUN  python -m pip install --upgrade pip
+RUN  pip install tweepy
+RUN  pip install pymongo
+RUN  pip install azure-keyvault-secrets azure-identity
+CMD ["python", "/app/StockerTwitterFeeder.py"]
