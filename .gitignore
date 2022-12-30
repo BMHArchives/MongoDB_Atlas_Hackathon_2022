@@ -3,3 +3,4 @@ Examples/*
 *.zip
 *.yaml
 Docker/*
+StockTwitterWeb/.venv
