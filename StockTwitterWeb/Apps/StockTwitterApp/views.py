@@ -1,8 +1,6 @@
 from django.shortcuts import render
-<<<<<<< HEAD
 
 # Create your views here.
-=======
 from .models import Stock
 
 # Create your views here.
@@ -14,4 +12,3 @@ def index(request):
     }
     
     return render(request, 'index.html', context=context)
->>>>>>> a810867 (Updated .gitignore file.)
