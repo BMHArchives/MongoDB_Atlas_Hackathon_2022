@@ -1,9 +1,7 @@
 from django.db import models
-<<<<<<< HEAD
 from django.urls import reverse # Used to generate URLs by reversing the URL patterns
 import uuid # Required for unique book instances
 
-=======
 from django.contrib.auth.models import User
 from django.urls import reverse # Used to generate URLs by reversing the URL patterns
 import uuid # Required for unique book instances
@@ -15,7 +13,6 @@ import uuid # Required for unique book instances
 #       def __str__(self):
 #           return self.username
     
->>>>>>> a810867 (Updated .gitignore file.)
 class Stock(models.Model):
       
       """Model representing a user's selected stock
@@ -28,12 +25,9 @@ class Stock(models.Model):
       symbol = models.TextField('Ticker Symbol', max_length=100, null=False)
       tags = models.TextField('Search Tags', max_length=1000, help_text="Enter additional keywords to use in the search ('#XBox', 'IOS')")
       active=models.BooleanField('Activate or Deactivate', default=True, help_text="Check to activate the stock or uncheck to deactivate the stock.")
-<<<<<<< HEAD
       
-=======
       #user=models.ForeignKey(User, on_delete=models.CASCADE)
       user = models.ForeignKey(User,  on_delete=models.CASCADE)
->>>>>>> a810867 (Updated .gitignore file.)
       def __str__(self):
           return f'{self.name} - {self.symbol}'
       
@@ -43,8 +37,5 @@ class Stock(models.Model):
       def get_absolute_url(self):
           """Returns the URL to access a detail record for this stock."""
           return reverse('stock-detail', args=[str(self.id)])
-<<<<<<< HEAD
       
-=======
 
->>>>>>> a810867 (Updated .gitignore file.)

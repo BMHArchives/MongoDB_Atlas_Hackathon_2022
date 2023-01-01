@@ -37,10 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-=======
     #'StockTwitterApp',
->>>>>>> a810867 (Updated .gitignore file.)
     'StockTwitterApp.apps.StocktwitterappConfig', # add our new application.
 ]
 
@@ -73,11 +70,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Apps.wsgi.application'
-<<<<<<< HEAD
 
-=======
 #AUTH_USER_MODEL = "StockTwitterApp.AppUser"
->>>>>>> a810867 (Updated .gitignore file.)
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
