@@ -6,3 +6,4 @@ Docker/*
 StockTwitterWeb/.venv
 *.pyc
 __pycache__
+*.sqlite3
