@@ -4,3 +4,6 @@ Examples/*
 *.yaml
 Docker/*
 StockTwitterWeb/.venv
+StockTwitterWeb/.venv
+*.pyc
+__pycache__

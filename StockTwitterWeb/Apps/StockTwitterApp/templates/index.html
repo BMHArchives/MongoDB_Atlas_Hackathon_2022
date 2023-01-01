@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Stock Twitter Home</h1>
+  <p>Welcome to Stock Twitter, a website developed by <em>Brandon M. Hunter</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>The database has the following record counts:</p>
+  <ul>
+    <li><strong>Stocks:</strong> {{ num_rows }}</li>
+
+  </ul>
+{% endblock %}

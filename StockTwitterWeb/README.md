@@ -7,3 +7,9 @@ python3 manage.py migrate - responsible for applying and unapplying migrations.
 python3 manage.py showmigrations - lists a project migrations and their status
 python3 manage.py sqlmigrate - displays the sql statements for a migration.
 
+<<<<<<< HEAD
+=======
+## Creating a superuser
+cd StockTwitterWeb/Apps
+python3 manage.py createsuperuser
+>>>>>>> a810867 (Updated .gitignore file.)
