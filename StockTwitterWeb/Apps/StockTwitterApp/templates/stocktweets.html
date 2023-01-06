@@ -1,0 +1,24 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Stock Tweets</h1>
+  <div>Type in the text your want to search for in the textbox below and click the Search button to see your results</div>
+  <div>
+
+    <form >
+      <div class="form-group">
+        <input type="text" class="form-control" id="text">
+      </div>
+      
+      <button type="submit" class="btn btn-success">Search</button>
+    </form>
+  </div>
+  <div>
+    <div class='row'>
+      <div class=' row col-sm-12'>
+        <div class='col-sm-2'>0 Results Returned</div>
+      </div>
+      <div class='col-sm-12'></div>
+    </div>
+  </div
+{% endblock %}

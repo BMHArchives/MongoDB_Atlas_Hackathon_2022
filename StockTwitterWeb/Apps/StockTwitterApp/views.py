@@ -12,3 +12,11 @@ def index(request):
     }
     
     return render(request, 'index.html', context=context)
+
+def get_stock_tweets(request):
+    context={}
+    return render(request, 'stocktweets.html', context=context)
+
+def get_user_stocks(request):
+    context={}
+    return render(request, 'userstocks.html', context=context)
