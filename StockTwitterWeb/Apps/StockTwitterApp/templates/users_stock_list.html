@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<h1>Your Selected Stocks </h1>
+    {% if stock_list %}
+    <ul>
+        {% for stock_item in stock_list %}
+            <li>{{ stock_item.name}} - {{ stock_item.symbol }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <p>You have not selected any stocks</p>
+    {% endif %}
+{% endblock %}
