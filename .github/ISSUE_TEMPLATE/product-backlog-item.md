@@ -1,8 +1,8 @@
 ---
-name: Custom issue template
+name: Product Backlog Item
 about: Describe this issue template's purpose here.
 title: ''
-labels: Work Item
+labels: PBI, Work Item
 assignees: ''
 
 ---
